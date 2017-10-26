@@ -35,7 +35,7 @@ function updateState(test, word, letter){
 function showAndHide(letter){
   let currentLetter = letter;
   let lowercaseletter = currentLetter.toLowerCase();
-  let lowerCase = document.querySelector('#lowercaseletter');
+  let lowerCase = document.querySelector('#'+lowercaseletter);
   let showLetter = document.querySelector('#show'+letter);
   showLetter.classList.remove('hidden');
   lowerCase.classList.add('hide');
