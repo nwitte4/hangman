@@ -34,18 +34,23 @@
   }
   .themes{
     padding-top: 50px;
-    font-size: 18pt;
+    font-size: 19pt;
     font-family: 'Indie Flower', cursive;
     width: 200px;
   }
   #himym{
     font-family: 'Titillium Web', sans-serif;
+    font-size: 16pt;
   }
   #office{
     font-family: 'Inconsolata', monospace;
+    font-size: 20pt;
+    width: 165px
   }
   #friends{
     font-family: 'Covered By Your Grace', cursive;
+    font-size: 15pt;
+    width: 300px
   }
   .full-width{
     grid-column: 1 / -1;
@@ -60,6 +65,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .5em;
     padding: 1px;
+    width: 650px;
   }
   .btn{
     border: 1px solid black;
