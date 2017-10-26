@@ -3,6 +3,7 @@ var theOffice = document.getElementById('office');
 var friends = document.getElementById('friends');
 var guessingWord = document.getElementById('the-word');
 var turnsLeft = document.getElementById('turn-count');
+var themes = document.getElementById('themes');
 var counter = 10;
 var characters;
 var word;
@@ -51,10 +52,20 @@ function startGame(charList) {
 
 howIMetYourMother.addEventListener('click', function() {
   startGame(howIMetYourMotherCharacters);
-})
+  currentTheme.textContent = 'Current Theme is: '
+  themes.textContent = 'How I Met Your Mother';
+});
 theOffice.addEventListener('click', function() {
   startGame(theOfficeCharacters);
-})
+  currentTheme.textContent = 'Current Theme is: '
+  themes.textContent = 'The Office';
+});
 friends.addEventListener('click', function() {
   startGame(friendsCharacters);
+  currentTheme.textContent = 'Current Theme is: '
+  themes.textContent = 'Friends';
+});
+
+reset.addEventListener('click', function(){
+
 })
