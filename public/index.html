@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hangman</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+  <div class="container-one">
+    <div class="box full-width">
+      <div></div>
+      <div class="title" id="title">Character Hangman</div>
+    </div>
+    <div class="box">
+    <div></div>
+    <div class="themes">Choose a Theme:</div>
+    </div>
+    <div class="box theme-choice">
+      <a class="btn" id="himym" href="#">How I Met Your Mother</a>
+      <a class="btn" id="office" href="#">The Office</a>
+      <a class="btn" id="friends" href="#">Friends</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="box keyboard" id="first-keyboard">
+      <a class="letter hide" id='a' onclick="hidea()" href="#">A</a>
+      <a class="letter hide" id='b' onclick="hideb()" href="#">B</a>
+      <a class="letter hide" id='c' onclick="hidec()" href="#">C</a>
+      <a class="letter hide" id='d' onclick="hided()" href="#">D</a>
+      <a class="letter hide" id='e' onclick="hidee()" href="#">E</a>
+      <a class="letter hide" id='f' onclick="hidef()" href="#">F</a>
+      <a class="letter hide" id='g' onclick="hideg()" href="#">G</a>
+      <a class="letter hide" id='h' onclick="hideh()" href="#">H</a>
+      <a class="letter hide" id='i' onclick="hidei()" href="#">I</a>
+      <a class="letter hide" id='j' onclick="hidej()" href="#">J</a>
+      <a class="letter hide" id='k' onclick="hidek()" href="#">K</a>
+      <a class="letter hide" id='l' onclick="hidel()" href="#">L</a>
+      <a class="letter hide" id='m' onclick="hidem()" href="#">M</a>
+      <a class="letter hide" id='n' onclick="hiden()" href="#">N</a>
+      <a class="letter hide" id='o' onclick="hideo()" href="#">O</a>
+      <a class="letter hide" id='p' onclick="hidep()" href="#">P</a>
+      <a class="letter hide" id='q' onclick="hideq()" href="#">Q</a>
+      <a class="letter hide" id='r' onclick="hider()" href="#">R</a>
+      <a class="letter hide" id='s' onclick="hides()" href="#">S</a>
+      <a class="letter hide" id='t' onclick="hidet()" href="#">T</a>
+      <a class="letter hide" id='u' onclick="hideu()" href="#">U</a>
+      <a class="letter hide" id='v' onclick="hidev()" href="#">V</a>
+      <a class="letter hide" id='w' onclick="hidew()" href="#">W</a>
+      <a class="letter hide" id='x' onclick="hidex()" href="#">X</a>
+      <a class="letter hide" id='y' onclick="hidey()" href="#">Y</a>
+      <a class="letter hide" id='z' onclick="hidez()" href="#">Z</a>
+    </div>
+    <div class="box man">Man</div>
+    <div class="box keyboard" id="second-keyboard">
+      <a class="letter hidden" id='showA' href="">A</a>
+      <a class="letter hidden" id='showB' href="">B</a>
+      <a class="letter hidden" id='showC' href="">C</a>
+      <a class="letter hidden" id='showD' href="">D</a>
+      <a class="letter hidden" id='showE' href="">E</a>
+      <a class="letter hidden" id='showF' href="">F</a>
+      <a class="letter hidden" id='showG' href="">G</a>
+      <a class="letter hidden" id='showH' href="">H</a>
+      <a class="letter hidden" id='showI' href="">I</a>
+      <a class="letter hidden" id='showJ' href="">J</a>
+      <a class="letter hidden" id='showK' href="">K</a>
+      <a class="letter hidden" id='showL' href="">L</a>
+      <a class="letter hidden" id='showM' href="">M</a>
+      <a class="letter hidden" id='showN' href="">N</a>
+      <a class="letter hidden" id='showO' href="">O</a>
+      <a class="letter hidden" id='showP' href="">P</a>
+      <a class="letter hidden" id='showQ' href="">Q</a>
+      <a class="letter hidden" id='showR' href="">R</a>
+      <a class="letter hidden" id='showS' href="">S</a>
+      <a class="letter hidden" id='showT' href="">T</a>
+      <a class="letter hidden" id='showU' href="">U</a>
+      <a class="letter hidden" id='showV' href="">V</a>
+      <a class="letter hidden" id='showW' href="">W</a>
+      <a class="letter hidden" id='showX' href="">X</a>
+      <a class="letter hidden" id='showY' href="">Y</a>
+      <a class="letter hidden" id='showZ' href="">Z</a>
+    </div>
+    <div class="box full-width word-display">
+      <div id="turn-count"> Turns Left: 10</div>
+      <div id="the-word">Guess Me!</div>
+      <div><a class="letter" id='reset' href="">Reset</a></div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- JavaScripts -->
+    <script src="js/buttons.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

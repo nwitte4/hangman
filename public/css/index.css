@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background: lightblue;
+    /*background-color: rgba(0,0,0,0.1);*/
+  }
+  .wrapper {
+    display: grid;
+    background: lightblue;
+    grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
+    width: 100vw;
+    grid-gap: .5em;
+    padding: 5px;
+  }
+  .container {
+    display: grid;
+    /*background: lightgrey;*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    height: 400px
+  }
+  .container-one {
+    display: grid;
+    /*background: lightgrey;*/
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .5em;
+    height: 200px;
+  }
+  .box {
+    display: grid;
+    /*background: grey;*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+  }
+  .themes{
+    padding-top: 50px;
+    font-size: 18pt;
+    width: 200px;
+  }
+  .full-width{
+    grid-column: 1 / -1;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20pt;
+  }
+  .theme-choice{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 5px;
+  }
+  .btn{
+    border: 1px solid black;
+    padding: 1em;
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+  .btn:active {
+    background-color: black;
+    color: white;
+   }
+  .btn:visited{
+    color: white;
+  }
+
+  .keyboard{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 40px);
+    padding: 10px;
+  }
+  .letter{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background: black;
+    color: white;
+  }
+  .letter:hover{
+    background: #333333;
+  }
+  .letter:active{
+    background: #333333;
+  }
+
+  #the-word{
+    letter-spacing: 5px;
+    font-size: 20pt;
+  }
+
+  .hidden{
+   visibility: hidden;
+  }
+  .hide {
+    visibility: hidden;
+  }
