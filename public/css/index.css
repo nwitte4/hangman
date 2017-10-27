@@ -133,9 +133,15 @@
   text-align: center;
   text-decoration: none;
   padding: 10px;
+  font-size: 10pt;
   background: black;
   color: white;
   font-family: 'Bungee Hairline', cursive;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
 }
 
 .reset {
@@ -155,8 +161,11 @@
   font-size: 20pt;
   font-family: 'Mallanna', sans-serif;
   text-align: center;
-  padding-left: 145px;
-  padding-top: 35px;
+  margin-top: 20px;
+  height: 300px;
+  width: 300px;
+}
+.animate{
   animation: fadein 5s;
 }
 

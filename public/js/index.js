@@ -48,43 +48,57 @@ function showAndHide(letter) {
 
 function startGame(charList) {
   characters = charList;
-  word = characters[Math.floor((Math.random() * characters.length) + 1)];
+  word = characters[Math.floor((Math.random() * characters.length))];
   renderState(word);
   counter = 10;
   currentState = renderState(word);
   currentWord = [...currentState];
-  currentTheme.textContent = 'Current Theme: '
   turnsLeft.textContent = 'Turns Left: ' + counter;
+}
+window.onanimationend = function(e){
+  e.target.classList.remove('animate');
 }
 
 himym.addEventListener('click', function() {
   startGame(howIMetYourMotherCharacters);
-  themes.textContent = 'How I Met Your Mother';
-  
+  themes.textContent = 'Current Theme is: How I Met Your Mother';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/himym.jpg";
 });
 office.addEventListener('click', function() {
   startGame(theOfficeCharacters);
-  themes.textContent = 'The Office';
+  themes.textContent = 'Current Theme is: The Office';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/office.jpg";
 });
 friends.addEventListener('click', function() {
   startGame(friendsCharacters);
-  themes.textContent = 'Friends';
+  themes.textContent = 'Current Theme is: Friends';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/friends.jpg";
 });
 got.addEventListener('click', function() {
   startGame(gameOfThronesCharacters);
-  themes.textContent = 'Game of Thrones';
+  themes.textContent = 'Current Theme is: Game of Thrones';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/wic.png";
 });
 bigmouth.addEventListener('click', function() {
   startGame(bigMouthCharacters);
-  themes.textContent = 'Big Mouth';
+  themes.textContent = 'Current Theme is: Big Mouth';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/bigmouth.png";
 });
 thisIsUs.addEventListener('click', function() {
   startGame(thisIsUsCharacters);
-  themes.textContent = 'This Is Us';
+  themes.textContent = 'Current Theme is: This Is Us';
+  backgroundimg.classList.add('animate');
+  backgroundimg.src = "img/tiu.jpg";
 });
 
 reset.addEventListener('click', function() {
   counter = 10;
   turnsLeft.textContent = 'Turns Left: ' + counter;
   word = undefined;
+  backgroundimg.src = "";
 })
