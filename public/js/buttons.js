@@ -36,10 +36,12 @@ function hidea() {
 
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -53,11 +55,13 @@ function hideb() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -71,11 +75,13 @@ function hidec() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -90,11 +96,13 @@ function hided() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -109,11 +117,13 @@ function hidee() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -128,11 +138,13 @@ function hidef() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -147,11 +159,13 @@ function hideg() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -166,11 +180,13 @@ function hideh() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -185,11 +201,13 @@ function hidei() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -204,11 +222,13 @@ function hidej() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -223,11 +243,13 @@ function hidek() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -242,11 +264,13 @@ function hidel() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -261,11 +285,13 @@ function hidem() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -280,11 +306,13 @@ function hiden() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -299,11 +327,13 @@ function hideo() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -318,11 +348,13 @@ function hidep() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -337,11 +369,13 @@ function hideq() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -356,11 +390,13 @@ function hider() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -375,11 +411,13 @@ function hides() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -394,11 +432,13 @@ function hidet() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -413,11 +453,13 @@ function hideu() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -432,11 +474,13 @@ function hidev() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -451,11 +495,13 @@ function hidew() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -470,11 +516,13 @@ function hidex() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -489,11 +537,13 @@ function hidey() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 
@@ -509,11 +559,13 @@ function hidez() {
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
   if (currentWord.join("") === word) {
-    guessingWord.textContent = 'You won! It was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You won! The word was:'
   }
 
   if (counter <= 0) {
-    guessingWord.textContent = 'You lost. The word was ' + word;
+    guessingWord.textContent = word;
+    middle.textContent = 'You lost! The word was:'
   }
 }
 //}

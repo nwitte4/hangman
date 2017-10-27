@@ -1,131 +1,192 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    background-color: #697c9b
-    /*background-color: rgba(0,0,0,0.1);*/
-  }
-  .wrapper {
-    display: grid;
-    grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
-    width: 100vw;
-    grid-gap: .5em;
-    padding: 5px;
-  }
-  .container {
-    display: grid;
-    /*background: lightgrey;*/
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5em;
-    height: 380px
-  }
-  .container-one {
-    display: grid;
-    /*background: lightgrey;*/
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: .5em;
-    height: 200px;
-  }
-  .box {
-    display: grid;
-    /*background: grey;*/
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5em;
-  }
-  .themes{
-    padding-top: 50px;
-    font-size: 19pt;
-    font-family: 'Cabin Sketch', cursive;
-    width: 200px;
-  }
-  .theme-choice{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5em;
-    padding: 1px;
-    width: 650px;
-    margin: auto;
-  }
-  #himym{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16pt;
-    text-shadow:1px 2px 3px #666;
-  }
-  #office{
-    font-family: 'Inconsolata', monospace;
-    font-size: 20pt;
-    width: 165px;
-    text-shadow: 1px 2px 3px #666;
-  }
-  #friends{
-    font-family: 'Covered By Your Grace', cursive;
-    font-size: 15pt;
-    width: 300px;
-    text-shadow: 1px 2px 3px #666;
-  }
-  .full-width{
-    grid-column: 1 / -1;
-    clear: both;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 20pt;
-    font-family: 'Cabin Sketch', cursive;
-  }
-  .btn{
-    border: 1px solid black;
-    padding: 1em;
-    display: grid;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14pt;
-  }
-  .btn:active {
-    background-color: black;
-    color: white;
-   }
-  .btn:visited{
-    color: white;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #697c9b
+  /*background-color: rgba(0,0,0,0.1);*/
+}
 
-  .keyboard{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 40px);
-    border-radius: 6px;
-    padding: 30px;
-    background-color: lightgrey;
-    margin: auto;
-  }
-  .letter{
-    border: 1px solid black;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    background: black;
-    color: white;
-    /*font-family: 'Indie Flower', cursive;*/
-  }
-  .reset{
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 14pt;
-    letter-spacing: 1px;
-  }
-  .letter:hover{
-    background: #333333;
-  }
-  .letter:active{
-    background: #333333;
-  }
+.wrapper {
+  display: grid;
+  grid-template-rows: 300px repeat(auto-fill, 100px)300px;
+  width: 100vw;
+  grid-gap: .5em;
+  padding: 5px;
+}
 
-  #the-word{
-    letter-spacing: 5px;
-    font-size: 20pt;
-    font-family: 'Cabin Sketch', cursive;
-  }
+.container {
+  display: grid;
+  /*     background: lightgrey; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5em;
+  height: 380px;
+  margin-top: 10px;
+}
 
-  .hidden{
-   visibility: hidden;
+.container-one {
+  display: grid;
+  /*background: lightgrey;*/
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .5em;
+  height: 200px;
+}
+
+.box {
+  display: grid;
+  /*background: grey;*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5em;
+}
+
+.themes {
+  padding-top: 50px;
+  font-size: 19pt;
+  font-family: 'Mallanna', sans-serif;
+  width: 200px;
+  text-align: center;
+}
+
+.theme-choice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5em;
+  padding: 1px;
+  width: 650px;
+  margin: auto;
+}
+
+#himym {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+#office {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+#friends {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 14pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+#got {
+  font-family: 'Cormorant', cursive;
+  font-size: 16pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+#bigmouth {
+  font-family: 'Slackey', cursive;
+  font-size: 16pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+#thisIsUs {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16pt;
+  text-shadow: 1px 2px 3px #666;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  font-size: 18pt;
+  font-family: 'Mallanna', sans-serif;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 1em;
+  display: grid;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+.btn:active {
+  background-color: black;
+  color: white;
+}
+
+.btn:visited {
+  color: white;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 40px);
+  border-radius: 6px;
+  padding: 30px;
+  background-color: lightgrey;
+  margin: auto;
+}
+
+.letter {
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.reset {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 14pt;
+  letter-spacing: 1px;
+}
+#currentTheme{
+  font-family: 'Mallanna', sans-serif;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+#middle {
+  letter-spacing: 6px;
+  font-size: 20pt;
+  font-family: 'Mallanna', sans-serif;
+  text-align: center;
+  padding-left: 145px;
+  padding-top: 35px;
+  animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
   }
-  .hide {
-    visibility: hidden;
+  to {
+    opacity: 1;
   }
+}
+
+.letter:hover {
+  background: #333333;
+}
+
+.letter:active {
+  background: #333333;
+}
+
+#the-word {
+  letter-spacing: 6px;
+  font-size: 20pt;
+  font-family: 'Mallanna', sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide {
+  visibility: hidden;
+}

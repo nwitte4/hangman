@@ -6,11 +6,17 @@
     <title>Hangman</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
+
   </head>
   <body>
 
@@ -18,15 +24,18 @@
   <div class="container-one">
     <div class="box full-width">
       <div></div>
-      <div class="title" id="title">Character Hangman</div>
+      <div class="title" id="title"><b>CHARACTER HANGMAN</b></div>
     </div>
     <div class="box">
     <div id="currentTheme"></div>
-    <div class="themes" id="themes">Choose a Theme:</div>
+    <div class="themes" id="themes"><b>Choose a Theme:</b></div>
     </div>
     <div class="box theme-choice">
       <a class="btn" id="himym" href="#">how i met your mother</a>
       <a class="btn" id="office" href="#">the office</a>
+      <a class="btn" id="thisIsUs" href="#">THIS IS <b>US</b></a>
+      <a class="btn" id="got" href="#">GAME OF THRONES</a>
+      <a class="btn" id="bigmouth" href="#">Big Mouth</a>
       <a class="btn" id="friends" href="#">F &middot; R &middot; I &middot; E &middot; N &middot; D &middot; S</a>
     </div>
   </div>
@@ -59,7 +68,7 @@
       <a class="letter hide" id='y' onclick="hidey()" href="#">Y</a>
       <a class="letter hide" id='z' onclick="hidez()" href="#">Z</a>
     </div>
-    <div class="box man">Man</div>
+    <div class="box man" id="middle"></div>
     <div class="box keyboard" id="second-keyboard">
       <a class="letter hidden" id='showA' href="">A</a>
       <a class="letter hidden" id='showB' href="">B</a>
@@ -89,8 +98,8 @@
       <a class="letter hidden" id='showZ' href="">Z</a>
     </div>
     <div class="box full-width word-display">
-      <div id="turn-count"> Turns Left: 10</div>
-      <div id="the-word">Guess Me!</div>
+      <div id="turn-count"><b>Turns Left: 10</b></div>
+      <div id="the-word"><b>Guess Me!</b></div>
       <div><a class="letter reset" id='reset' href="">Reset</a></div>
     </div>
   </div>
