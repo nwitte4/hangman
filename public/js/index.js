@@ -67,5 +67,7 @@ friends.addEventListener('click', function() {
 });
 
 reset.addEventListener('click', function(){
-
+  counter = 10;
+  turnsLeft.textContent = 'Turns Left: ' + counter;
+  word = undefined;
 })

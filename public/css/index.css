@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    background: lightblue;
+    background-color: #697c9b
     /*background-color: rgba(0,0,0,0.1);*/
   }
   .wrapper {
     display: grid;
-    background: lightblue;
     grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
     width: 100vw;
     grid-gap: .5em;
@@ -17,7 +16,7 @@
     /*background: lightgrey;*/
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .5em;
-    height: 400px
+    height: 380px
   }
   .container-one {
     display: grid;
@@ -35,30 +34,8 @@
   .themes{
     padding-top: 50px;
     font-size: 19pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Cabin Sketch', cursive;
     width: 200px;
-  }
-  #himym{
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16pt;
-  }
-  #office{
-    font-family: 'Inconsolata', monospace;
-    font-size: 20pt;
-    width: 165px
-  }
-  #friends{
-    font-family: 'Covered By Your Grace', cursive;
-    font-size: 15pt;
-    width: 300px
-  }
-  .full-width{
-    grid-column: 1 / -1;
-    clear: both;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 20pt;
-    font-family: 'Indie Flower', cursive;
   }
   .theme-choice{
     display: grid;
@@ -66,6 +43,32 @@
     grid-gap: .5em;
     padding: 1px;
     width: 650px;
+    margin: auto;
+  }
+  #himym{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16pt;
+    text-shadow:1px 2px 3px #666;
+  }
+  #office{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20pt;
+    width: 165px;
+    text-shadow: 1px 2px 3px #666;
+  }
+  #friends{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 15pt;
+    width: 300px;
+    text-shadow: 1px 2px 3px #666;
+  }
+  .full-width{
+    grid-column: 1 / -1;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20pt;
+    font-family: 'Cabin Sketch', cursive;
   }
   .btn{
     border: 1px solid black;
@@ -74,7 +77,6 @@
     text-align: center;
     text-decoration: none;
     font-size: 14pt;
-    font-family: 'Indie Flower', cursive;
   }
   .btn:active {
     background-color: black;
@@ -90,7 +92,8 @@
     grid-template-rows: repeat(5, 40px);
     border-radius: 6px;
     padding: 30px;
-    background-color: grey;
+    background-color: lightgrey;
+    margin: auto;
   }
   .letter{
     border: 1px solid black;
@@ -103,7 +106,9 @@
     /*font-family: 'Indie Flower', cursive;*/
   }
   .reset{
-
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 14pt;
+    letter-spacing: 1px;
   }
   .letter:hover{
     background: #333333;
@@ -115,7 +120,7 @@
   #the-word{
     letter-spacing: 5px;
     font-size: 20pt;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Cabin Sketch', cursive;
   }
 
   .hidden{
