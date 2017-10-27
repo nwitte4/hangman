@@ -1,7 +1,7 @@
 var howIMetYourMother = document.getElementById('himym');;
 var theOffice = document.getElementById('office');
 var friends = document.getElementById('friends');
-var guessingWord = document.getElementById('the-word');
+var guessingWord = document.getElementById('theword');
 var turnsLeft = document.getElementById('turn-count');
 var themes = document.getElementById('themes');
 var counter;
@@ -19,8 +19,7 @@ let bigMouthCharacters = ['JESSI', 'NICK', 'ANDREW', 'DUKEWELLINGTON', 'LEAH', '
 let thisIsUsCharacters = ['JACK', 'REBECCA', 'KATE', 'RANDALL', 'KEVIN', 'TOBY', 'WILLIAM', 'BETH', 'MIGUEL'];
 
 function renderState(word) {
-  var current = [...word].fill("_").join("");
-  return guessingWord.textContent = current;
+  return guessingWord.textContent = [...word].fill("_").join("");
 }
 
 function updateState(test, word, letter) {
@@ -100,5 +99,6 @@ reset.addEventListener('click', function() {
   counter = 10;
   turnsLeft.textContent = 'Turns Left: ' + counter;
   word = undefined;
-  backgroundimg.src = "";
+  theword.textContent = 'Guess Me!'
+  backgroundimg.src = "#";
 })
