@@ -1,31 +1,3 @@
-a.classList.remove('hide');
-b.classList.remove('hide');
-c.classList.remove('hide');
-d.classList.remove('hide');
-e.classList.remove('hide');
-f.classList.remove('hide');
-g.classList.remove('hide');
-h.classList.remove('hide');
-i.classList.remove('hide');
-j.classList.remove('hide');
-k.classList.remove('hide');
-l.classList.remove('hide');
-m.classList.remove('hide');
-n.classList.remove('hide');
-o.classList.remove('hide');
-p.classList.remove('hide');
-q.classList.remove('hide');
-r.classList.remove('hide');
-s.classList.remove('hide');
-t.classList.remove('hide');
-u.classList.remove('hide');
-v.classList.remove('hide');
-w.classList.remove('hide');
-x.classList.remove('hide');
-y.classList.remove('hide');
-z.classList.remove('hide');
-
-
 function hidea() {
   let letter = 'A';
   if (word === undefined) {

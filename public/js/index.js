@@ -4,6 +4,7 @@ var friends = document.getElementById('friends');
 var guessingWord = document.getElementById('theword');
 var turnsLeft = document.getElementById('turn-count');
 var themes = document.getElementById('themes');
+var backgroundimg = document.getElementById('backgroundimg');
 var counter;
 var characters;
 var word;
@@ -50,6 +51,7 @@ function startGame(charList) {
   word = characters[Math.floor((Math.random() * characters.length))];
   renderState(word);
   counter = 10;
+  resetLetters();
   currentState = renderState(word);
   currentWord = [...currentState];
   turnsLeft.textContent = 'Turns Left: ' + counter;
@@ -95,10 +97,69 @@ thisIsUs.addEventListener('click', function() {
   backgroundimg.src = "img/tiu.jpg";
 });
 
+function resetLetters(){
+  a.classList.remove('hide');
+  b.classList.remove('hide');
+  c.classList.remove('hide');
+  d.classList.remove('hide');
+  e.classList.remove('hide');
+  f.classList.remove('hide');
+  g.classList.remove('hide');
+  h.classList.remove('hide');
+  i.classList.remove('hide');
+  j.classList.remove('hide');
+  k.classList.remove('hide');
+  l.classList.remove('hide');
+  m.classList.remove('hide');
+  n.classList.remove('hide');
+  o.classList.remove('hide');
+  p.classList.remove('hide');
+  q.classList.remove('hide');
+  r.classList.remove('hide');
+  s.classList.remove('hide');
+  t.classList.remove('hide');
+  u.classList.remove('hide');
+  v.classList.remove('hide');
+  w.classList.remove('hide');
+  x.classList.remove('hide');
+  y.classList.remove('hide');
+  z.classList.remove('hide');
+
+  showA.classList.add('hidden');
+  showB.classList.add('hidden');
+  showC.classList.add('hidden');
+  showD.classList.add('hidden');
+  showE.classList.add('hidden');
+  showF.classList.add('hidden');
+  showG.classList.add('hidden');
+  showH.classList.add('hidden');
+  showI.classList.add('hidden');
+  showJ.classList.add('hidden');
+  showK.classList.add('hidden');
+  showL.classList.add('hidden');
+  showM.classList.add('hidden');
+  showN.classList.add('hidden');
+  showO.classList.add('hidden');
+  showP.classList.add('hidden');
+  showQ.classList.add('hidden');
+  showR.classList.add('hidden');
+  showS.classList.add('hidden');
+  showT.classList.add('hidden');
+  showU.classList.add('hidden');
+  showV.classList.add('hidden');
+  showW.classList.add('hidden');
+  showX.classList.add('hidden');
+  showY.classList.add('hidden');
+  showZ.classList.add('hidden');
+}
+
 reset.addEventListener('click', function() {
   counter = 10;
   turnsLeft.textContent = 'Turns Left: ' + counter;
   word = undefined;
+  resetLetters();
+  themes.textContent = 'Choose a Theme:';
   theword.textContent = 'Guess Me!'
-  backgroundimg.src = "#";
+  middle.textContent = '';
+  backgroundimg.src = "";
 })

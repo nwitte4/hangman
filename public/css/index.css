@@ -166,7 +166,7 @@
   width: 300px;
 }
 .animate{
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
