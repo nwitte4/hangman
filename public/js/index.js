@@ -92,9 +92,9 @@ bigmouth.addEventListener('click', function() {
 });
 thisIsUs.addEventListener('click', function() {
   startGame(thisIsUsCharacters);
+  backgroundimg.src = "img/tiu.jpg";
   themes.textContent = 'Current Theme is: This Is Us';
   backgroundimg.classList.add('animate');
-  backgroundimg.src = "img/tiu.jpg";
 });
 
 function resetLetters(){
@@ -160,6 +160,6 @@ reset.addEventListener('click', function() {
   resetLetters();
   themes.textContent = 'Choose a Theme:';
   theword.textContent = 'Guess Me!'
-  middle.textContent = '';
-  backgroundimg.src = "";
+//  middle.textContent = '';
+  backgroundimg.src = "img/images.png";
 })

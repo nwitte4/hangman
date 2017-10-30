@@ -13,7 +13,7 @@ function hidea() {
   }
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -33,7 +33,7 @@ function hideb() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -53,7 +53,7 @@ function hidec() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -74,7 +74,7 @@ function hided() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -95,7 +95,7 @@ function hidee() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -116,7 +116,7 @@ function hidef() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -137,7 +137,7 @@ function hideg() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -158,7 +158,7 @@ function hideh() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -179,7 +179,7 @@ function hidei() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -200,7 +200,7 @@ function hidej() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -221,7 +221,7 @@ function hidek() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -242,7 +242,7 @@ function hidel() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -263,7 +263,7 @@ function hidem() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -284,7 +284,7 @@ function hiden() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -305,7 +305,7 @@ function hideo() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -326,7 +326,7 @@ function hidep() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -347,7 +347,7 @@ function hideq() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -368,7 +368,7 @@ function hider() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -389,7 +389,7 @@ function hides() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -410,7 +410,7 @@ function hidet() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -431,7 +431,7 @@ function hideu() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -452,7 +452,7 @@ function hidev() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -473,7 +473,7 @@ function hidew() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -494,7 +494,7 @@ function hidex() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
@@ -515,14 +515,13 @@ function hidey() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 
 function hidez() {
   let letter = 'Z';
 
-  var oldWord = returnedWord;
   if (word === undefined) {
     return alert('You must choose a theme first!!');
   }
@@ -537,7 +536,7 @@ function hidez() {
 
   if (counter <= 0) {
     guessingWord.textContent = word;
-    middle.textContent = 'You lost! The word was:'
+    backgroundimg.src = "img/images.png";
   }
 }
 //}
