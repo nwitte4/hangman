@@ -160,6 +160,5 @@ reset.addEventListener('click', function() {
   resetLetters();
   themes.textContent = 'Choose a Theme:';
   theword.textContent = 'Guess Me!'
-//  middle.textContent = '';
-  backgroundimg.src = "img/images.png";
+  backgroundimg.src = "img/bg.png";
 })
