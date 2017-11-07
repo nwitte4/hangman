@@ -7,13 +7,15 @@ function hidea() {
   updateState(currentWord, word, letter);
 
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
   if (counter <= 0) {
     guessingWord.textContent = 'It was ' + word;
     backgroundimg.src = "img/images.png";
+  } else if (counter < 0){
+    counter = 0;
   }
 }
 
@@ -26,7 +28,7 @@ function hideb() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -46,7 +48,7 @@ function hidec() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -67,7 +69,7 @@ function hided() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -88,7 +90,7 @@ function hidee() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -109,7 +111,7 @@ function hidef() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -130,7 +132,7 @@ function hideg() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -151,7 +153,7 @@ function hideh() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -172,7 +174,7 @@ function hidei() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -193,7 +195,7 @@ function hidej() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -214,7 +216,7 @@ function hidek() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -235,7 +237,7 @@ function hidel() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -256,7 +258,7 @@ function hidem() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -277,7 +279,7 @@ function hiden() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -298,7 +300,7 @@ function hideo() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -319,7 +321,7 @@ function hidep() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -340,7 +342,7 @@ function hideq() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -361,7 +363,7 @@ function hider() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -382,7 +384,7 @@ function hides() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -403,7 +405,7 @@ function hidet() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -424,7 +426,7 @@ function hideu() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -445,7 +447,7 @@ function hidev() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -466,7 +468,7 @@ function hidew() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -487,7 +489,7 @@ function hidex() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -508,7 +510,7 @@ function hidey() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }
@@ -529,7 +531,7 @@ function hidez() {
   showAndHide(letter);
   updateState(currentWord, word, letter);
   turnsLeft.textContent = 'Turns Left: ' + counter;
-  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.jpg";
+  if (currentWord.join("") === word) { backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = 'It was ' + word;
 
   }

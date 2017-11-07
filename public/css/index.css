@@ -167,7 +167,7 @@
   margin-left: 40px;
 }
 .animate{
-  animation: fadein 3s;
+  animation: fadein 2s;
 }
 
 @keyframes fadein {
