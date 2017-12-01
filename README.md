@@ -4,12 +4,12 @@
 
 To play, start by choosing your TV show theme, there are 6 to choose from:
 
-## 1. How I Met Your Mother
-## 2. Big Mouth
-## 3. Friends
-## 4. Game of Thrones
-## 5. This is Us
-## 6. The Office
+#### 1. How I Met Your Mother
+#### 2. Big Mouth
+#### 3. Friends
+#### 4. Game of Thrones
+#### 5. This is Us
+#### 6. The Office
 
 The blank letters representing the word will show up at the bottom. Using the theme and the amount of 'letters' shown, you can start guessing!
 
