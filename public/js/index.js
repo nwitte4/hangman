@@ -76,7 +76,7 @@ function makeVars(alphabet){
     let capitalize = alphabet[i].toUpperCase();
     let lowercase = alphabet[i];
     capitalize = document.getElementById(`${lowercase}`)
-    array.push(capitalize);
+    variableArray.push(capitalize);
   }
   return variableArray;
 }
