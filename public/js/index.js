@@ -94,7 +94,7 @@ function hideLetter(lowercaseLetter){
 
   if (currentWord.join("") === word){
     backgroundimg.src = "img/Winner.png";
-    guessingWord.textContent = 'It was ' + word;
+    guessingWord.textContent = word;
   }
   if (counter <= 0) {
     guessingWord.textContent = "You've been bested by: " + word;
