@@ -195,8 +195,15 @@
 
 .hidden {
   visibility: hidden;
+  transition: 2s;
 }
 
 .hide {
   visibility: hidden;
+  transition: 2s;
+}
+
+.email{
+  font-size: 10pt;
+  font-family: 'Mallanna', sans-serif;
 }
