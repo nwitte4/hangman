@@ -22,7 +22,6 @@ function renderState(word) {
 }
 
 
-
 // updates word if letter is correct
 function updateState(test, word, letter) {
   for (let i = 0; i < word.length; i++) {
@@ -51,7 +50,7 @@ function showAndHide(letter) {
 
 
 // validates word has been chosen
-function validateWord(){
+function validateWord() {
   if (word === undefined) {
     return alert('You must choose a theme first!!');
   }
@@ -70,9 +69,9 @@ function startGame(charList) {
   turnsLeft.textContent = 'Turns Left: ' + counter;
 }
 
-function makeVars(alphabet){
+function makeVars(alphabet) {
   var variableArray = [];
-  for(let i = 0; i < alphabet.length; i++){
+  for (let i = 0; i < alphabet.length; i++) {
     let capitalize = alphabet[i].toUpperCase();
     let lowercase = alphabet[i];
     capitalize = document.getElementById(`${lowercase}`)
@@ -84,7 +83,7 @@ function makeVars(alphabet){
 makeVars('abcdefghijklmnopqrstuvwxyz');
 
 
-function hideLetter(lowercaseLetter){
+function hideLetter(lowercaseLetter) {
   let letter = lowercaseLetter.toUpperCase();
   validateWord();
   showAndHide(letter);
@@ -92,26 +91,24 @@ function hideLetter(lowercaseLetter){
 
   turnsLeft.textContent = 'Turns Left: ' + counter;
 
-  if (currentWord.join("") === word){
+  if (currentWord.join("") === word) {
     backgroundimg.src = "img/Winner.png";
     guessingWord.textContent = word;
   }
   if (counter <= 0) {
     guessingWord.textContent = "You've been bested by: " + word;
     backgroundimg.src = "img/images.png";
-  } else if (counter < 0){
+  } else if (counter < 0) {
     counter = 0;
   }
 
 }
 
 
-
 // solely for background animation
-window.onanimationend = function(e){
+window.onanimationend = function(e) {
   e.target.classList.remove('animate');
 }
-
 
 
 // starts game with new word for each array of characters
@@ -152,64 +149,19 @@ thisIsUs.addEventListener('click', function() {
   backgroundimg.classList.add('animate');
 });
 
+// all code below here affects reset functionality/button
 
+function resetLetters() {
+  let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  for (let i = 0; i < alphabet.length; i++) {
+    let upperCase = 'show' + `${alphabet[i].toUpperCase()}`;
+    let lowerCase = alphabet[i];
+    lowerCaseLetter = document.getElementById(`${lowerCase}`);
+    showUpperCaseLetter = document.getElementById(`${upperCase}`)
 
-// all code below here affects reset functionality
-
-function resetLetters(){
-  a.classList.remove('hide');
-  b.classList.remove('hide');
-  c.classList.remove('hide');
-  d.classList.remove('hide');
-  e.classList.remove('hide');
-  f.classList.remove('hide');
-  g.classList.remove('hide');
-  h.classList.remove('hide');
-  i.classList.remove('hide');
-  j.classList.remove('hide');
-  k.classList.remove('hide');
-  l.classList.remove('hide');
-  m.classList.remove('hide');
-  n.classList.remove('hide');
-  o.classList.remove('hide');
-  p.classList.remove('hide');
-  q.classList.remove('hide');
-  r.classList.remove('hide');
-  s.classList.remove('hide');
-  t.classList.remove('hide');
-  u.classList.remove('hide');
-  v.classList.remove('hide');
-  w.classList.remove('hide');
-  x.classList.remove('hide');
-  y.classList.remove('hide');
-  z.classList.remove('hide');
-
-  showA.classList.add('hidden');
-  showB.classList.add('hidden');
-  showC.classList.add('hidden');
-  showD.classList.add('hidden');
-  showE.classList.add('hidden');
-  showF.classList.add('hidden');
-  showG.classList.add('hidden');
-  showH.classList.add('hidden');
-  showI.classList.add('hidden');
-  showJ.classList.add('hidden');
-  showK.classList.add('hidden');
-  showL.classList.add('hidden');
-  showM.classList.add('hidden');
-  showN.classList.add('hidden');
-  showO.classList.add('hidden');
-  showP.classList.add('hidden');
-  showQ.classList.add('hidden');
-  showR.classList.add('hidden');
-  showS.classList.add('hidden');
-  showT.classList.add('hidden');
-  showU.classList.add('hidden');
-  showV.classList.add('hidden');
-  showW.classList.add('hidden');
-  showX.classList.add('hidden');
-  showY.classList.add('hidden');
-  showZ.classList.add('hidden');
+    lowerCaseLetter.classList.remove('hide');
+    showUpperCaseLetter.classList.add('hidden');
+  }
 }
 
 reset.addEventListener('click', function() {
