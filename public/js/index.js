@@ -72,9 +72,8 @@ function startGame(charList) {
 function makeVars(alphabet) {
   var variableArray = [];
   for (let i = 0; i < alphabet.length; i++) {
-    let capitalize = alphabet[i].toUpperCase();
     let lowercase = alphabet[i];
-    capitalize = document.getElementById(`${lowercase}`)
+    let capitalize = document.getElementById(`${lowercase}`);
     variableArray.push(capitalize);
   }
   return variableArray;
